@@ -35,7 +35,7 @@ export default async function Home() {
       <pre>{JSON.stringify(data)}</pre>
 
       <form action={myAction}>
-        <button type="submit">reset cache with server actions</button>
+        <button type="submit" className='bg-zinc-500 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded transition-all'>reset cache with server actions</button>
       </form>
 
       <ButtonResetCache />
